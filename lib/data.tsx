@@ -14,7 +14,7 @@ export const links = [
   { name: "Testimonials", url: "/testimonials" },
   { name: "GitHub", url: "https://github.com/zynpcvsgl" },
   { name: "LinkedIn", url: "https://www.linkedin.com/in/zynpcvsgl" },
-  // Diğer bağlantıları ekleyebilirsiniz
+ 
 ];
 interface Experience {
   title: string;
