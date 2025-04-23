@@ -53,6 +53,6 @@ export const experiencesData: Experience[] = [
     description:
       "High school education with a focus on science and foreign languages.",
     icon: React.createElement(FaGraduationCap),
-    date: "2015 – 2019",
+    date: "2013 – 2017",
   },
 ];
