@@ -69,7 +69,7 @@ const projects: Project[] = [
 export default function Projects() {
   return (
     <section id="projects" className="scroll-mt-28 mb-28 sm:mb-40">
-      <SectionHeading>Projects</SectionHeading>
+     <SectionHeading>{language === "tr" ? "Projeler" : "Projects"}</SectionHeading>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10">
         {projects.map((project, index) => (
           <a
