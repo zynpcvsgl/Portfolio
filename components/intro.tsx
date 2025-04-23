@@ -34,7 +34,7 @@ export default function Intro() {
             height={400}
             priority={true}
             quality={100}
-            className="h-60 w-60 sm:h-72 sm:w-72 rounded-full object-cover border-[0.4rem] border-black shadow-xl"
+            className="h-60 w-60 sm:h-72 sm:w-72 rounded-full object-cover border-[0.4rem] border-white shadow-xl"
           />
 
           </motion.div>
