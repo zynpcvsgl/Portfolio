@@ -1,6 +1,5 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import ThemeSwitch from "@/components/theme-switch";
@@ -31,7 +30,7 @@ export default function RootLayout({
         <LanguageProvider>
           <ThemeContextProvider>
             <ActiveSectionContextProvider>
-              <Header />
+              <Navbar /> 
 
               {/* Arka plan efektleri */}
               <div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263]"></div>
