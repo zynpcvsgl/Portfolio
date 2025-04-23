@@ -10,16 +10,19 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
+import { useLanguage } from "@/context/language-context"; 
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
   const { theme } = useTheme();
+  const { language } = useLanguage(); 
+  const data = experiencesData[language]; 
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
-      <SectionHeading>Experience</SectionHeading>
+      <SectionHeading>{language === "tr" ? "Deneyim" : "Experience"}</SectionHeading>
       <VerticalTimeline lineColor="">
-        {experiencesData.map((item, index) => (
+        {data.map((item, index) => (
           <VerticalTimelineElement
             key={index}
             contentStyle={{
