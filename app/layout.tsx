@@ -2,6 +2,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import Navbar from "@/components/navbar";
 import ThemeSwitch from "@/components/theme-switch";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import ThemeContextProvider from "@/context/theme-context";
