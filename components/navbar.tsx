@@ -31,7 +31,7 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-black/90 backdrop-blur-md shadow-sm">
       <nav className="max-w-5xl mx-auto flex items-center justify-between px-6 py-3">
-        <h1 className="text-xl font-bold text-purple-500">Zeynep</h1>
+        <h1 className="text-xl font-bold text-purple-500">ZÇ</h1>
         <ul className="hidden sm:flex gap-6 text-sm font-medium">
           {links.map((link, index) => (
             <li key={index}>
