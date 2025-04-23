@@ -3,73 +3,16 @@
 import React from "react";
 import SectionHeading from "./section-heading";
 import { FaGithub } from "react-icons/fa";
-
-interface Project {
-  title: string;
-  description: string;
-  url: string;
-}
-
-const projects: Project[] = [
-  {
-    title: "Dogus Teknoloji Bitirme Projesi",
-    description:
-      ".NET Core ve Entity Framework kullanılarak geliştirilen, kullanıcı yönetimi, blog gönderileri, yorumlar ve kategori filtreleme özelliklerine sahip tam işlevli bir Blog Uygulaması.",
-    url: "https://github.com/zynpcvsgl/Dogus-Teknoloji-Bitirme-Projesi",
-  },
-  {
-    title: "Twitter Clone",
-    description:
-      "A modern Twitter clone built with Next.js 13, TypeScript, Prisma, and Tailwind CSS. Features posts, comments, likes, dark mode, and responsive design.",
-    url: "https://github.com/zynpcvsgl/twitter_clone",
-  },
-  {
-    title: "Bank Management System",
-    description:
-      "Bank Management System, Java kullanılarak geliştirilmiş bir masaüstü uygulamasıdır.",
-    url: "https://github.com/zynpcvsgl/bank_management_system",
-  },
-  {
-    title: "Amiral Battı (JavaScript)",
-    description: "JavaScript ile amiral battı oyunu.",
-    url: "https://github.com/zynpcvsgl/amiralbatti_js",
-  },
-  {
-    title: "Amiral Battı (Python)",
-    description: "Python ile amiral battı oyunu.",
-    url: "https://github.com/zynpcvsgl/amiral-batti-python",
-  },
-  {
-    title: "Super Mario Unity",
-    description:
-      "A classic 2D Super Mario Bros clone recreated using Unity. Game mechanics and visual effects mimic the original gameplay.",
-    url: "https://github.com/zynpcvsgl/super-mario-unity",
-  },
-  {
-    title: "YouTube Clone",
-    description:
-      "A YouTube clone built with HTML and basic JavaScript functionalities.",
-    url: "https://github.com/zynpcvsgl/youtubeclone",
-  },
-  {
-    title: "Flappy Bird Unity Clone",
-    description:
-      "A clone of the Flappy Bird game made in Unity with accurate physics and pixel art visuals.",
-    url: "https://github.com/zynpcvsgl/flappy-bird-unity-clone",
-  },
-  {
-    title: "BlissChat",
-    description:
-      "A real-time encrypted messaging app built with Node.js and React Native. Features secure login, message encryption, and chat history.",
-    url: "https://github.com/zynpcvsgl/blisschat",
-  },
-  
-];
+import { useLanguage } from "@/context/language-context";
+import { projectsData } from "@/lib/data";
 
 export default function Projects() {
+  const { language } = useLanguage();
+  const projects = projectsData[language];
+
   return (
     <section id="projects" className="scroll-mt-28 mb-28 sm:mb-40">
-     <SectionHeading>{language === "tr" ? "Projeler" : "Projects"}</SectionHeading>
+      <SectionHeading>{language === "tr" ? "Projeler" : "Projects"}</SectionHeading>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10">
         {projects.map((project, index) => (
           <a
