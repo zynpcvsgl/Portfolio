@@ -28,14 +28,15 @@ export default function Intro() {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <Image
-              src="/zeynep.jpg"
-              alt="Zeynep Çavuşoğlu"
-              width={320}
-              height={320}
-              priority={true}
-              quality={100}
-              className="h-44 w-44 sm:h-52 sm:w-52 rounded-full object-cover border-[0.4rem] border-white shadow-xl"
-            />
+            src="/zeynep.jpg"
+            alt="Zeynep Çavuşoğlu"
+            width={400}
+            height={400}
+            priority={true}
+            quality={100}
+            className="h-60 w-60 sm:h-72 sm:w-72 rounded-full object-cover border-[0.4rem] border-black shadow-xl"
+          />
+
           </motion.div>
         </div>
       </div>
