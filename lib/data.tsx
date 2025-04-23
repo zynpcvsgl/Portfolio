@@ -9,6 +9,8 @@ export const links = [
   { name: "Contact", url: "/contact" },
   { name: "Blog", url: "/blog" },
   { name: "Resume", url: "/resume" },
+  { name: "CV (İngilizce)", url: "/zeynep_cv_en.pdf" },
+  { name: "CV (Türkçe)", url: "/zeynep_cv_tr.pdf" },
   { name: "Testimonials", url: "/testimonials" },
   { name: "GitHub", url: "https://github.com/zynpcvsgl" },
   { name: "LinkedIn", url: "https://www.linkedin.com/in/zynpcvsgl" },
