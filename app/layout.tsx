@@ -11,7 +11,7 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Zeynep Çavuşoğlu | Software Developer",
+  title: "Zeynep Çavuşoğlu | Computer Engineer",
   description:
     "Zeynep is a software developer specializing in .NET, React Native, and modern web technologies.",
 };
