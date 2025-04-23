@@ -1,6 +1,19 @@
 import React, { ReactNode } from "react";
 import { FaBuilding, FaCode, FaGraduationCap } from "react-icons/fa";
-
+export const links = [
+  { name: "Home", url: "/" },
+  { name: "About", url: "/about" },
+  { name: "Projects", url: "/projects" },
+  { name: "Skills", url: "/skills" },
+  { name: "Experience", url: "/experience" },
+  { name: "Contact", url: "/contact" },
+  { name: "Blog", url: "/blog" },
+  { name: "Resume", url: "/resume" },
+  { name: "Testimonials", url: "/testimonials" },
+  { name: "GitHub", url: "https://github.com/zynpcvsgl" },
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/zynpcvsgl" },
+  // Diğer bağlantıları ekleyebilirsiniz
+];
 interface Experience {
   title: string;
   location: string;
