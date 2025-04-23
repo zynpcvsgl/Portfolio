@@ -4,7 +4,7 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { FaGithub } from "react-icons/fa";
 import { useLanguage } from "@/context/language-context";
-import { projectsData } from "@/lib/projectsData"; // ✅ DÜZENLENDİ
+import { projectsData } from "@/lib/projectsData"; 
 
 export default function Projects() {
   const { language } = useLanguage();
