@@ -26,13 +26,14 @@ interface Experience {
 
 export const experiencesData: Experience[] = [
   {
-    title: "SCA Social",
-    location: "Remote",
-    description:
-      "Worked on software development tasks as part of a team project, contributing to frontend and backend improvements.",
-    icon: React.createElement(FaCode),
-    date: "Aug 2024 – Sep 2024",
-  },
+  title: "SCA Social",
+  location: "Remote",
+  description:
+    "Completed training in management, marketing, and digital transformation. Led a branding project that increased engagement by 15%. Organized a 5-person team to conduct market analysis and improved client satisfaction by 10%.",
+  icon: React.createElement(FaCode),
+  date: "Aug 2024 – Sep 2024",
+}
+,
   {
     title: "Ministry of Environment, Urbanization and Climate Change",
     location: "Izmir",
