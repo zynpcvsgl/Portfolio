@@ -6,7 +6,7 @@ import Intro from "@/components/intro";
 import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
-import Resume from "@/components/resume"; // <--- burası eklendi
+import Resume from "@/components/resume"; 
 
 export default function Home() {
   return (
@@ -19,6 +19,8 @@ export default function Home() {
       <Experience />
       <Resume />
       <Contact />
+      <Cv />
+      
     </main>
   );
 }
