@@ -29,7 +29,7 @@ export default function About() {
 
       <p className="mb-3">
         {language === "en"
-          ? "I have hands-on experience developing backend services for operational and onboarding flows—designing RESTful APIs, implementing business rules, and integrating database operations. I pay attention to validation, error handling, and edge cases to make systems stable and predictable, and I like structuring code in a clean, scalable way."
+          ? "I have hands-on experience developing backend services for operational and onboarding flows designing RESTful APIs, implementing business rules, and integrating database operations. I pay attention to validation, error handling, and edge cases to make systems stable and predictable, and I like structuring code in a clean, scalable way."
           : "Operasyonel ve onboarding akışları için backend servisleri geliştirme konusunda pratik deneyimim var; RESTful API’ler tasarlıyor, iş kurallarını uyguluyor ve veritabanı işlemlerini entegre ediyorum. Sistemlerin stabil ve öngörülebilir olması için doğrulama (validation), hata yönetimi (error handling) ve edge-case’lere önem veriyor; kodu temiz ve ölçeklenebilir şekilde kurgulamayı seviyorum."}
       </p>
 
