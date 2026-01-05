@@ -18,8 +18,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <Resume />
-      <Contact />
-      <Cv />
+      <Contact />     
       
     </main>
   );
