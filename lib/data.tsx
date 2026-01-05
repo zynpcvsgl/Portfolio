@@ -1,4 +1,3 @@
-
 import React, { ReactNode } from "react";
 import { FaBuilding, FaCode, FaGraduationCap } from "react-icons/fa";
 
@@ -28,6 +27,14 @@ interface Experience {
 
 export const experiencesData = {
   en: [
+    {
+      title: "Karanix Software Solutions",
+      location: "Remote / Turkey",
+      description:
+        "Developed backend APIs for Support Panel and Onboarding flows. Implemented endpoints for application create/update, IBAN handling, contract approval, package & add-on selection, and domain selection/availability checks. Built support workflows such as status-based listing, detail views, and submit/approve/reject actions using NestJS (TypeScript), Prisma, and PostgreSQL with strong validation and error handling.",
+      icon: React.createElement(FaCode),
+      date: "Dec 2025 - Dec 2025"
+    },
     {
       title: "SCA Social",
       location: "Remote",
@@ -63,6 +70,14 @@ export const experiencesData = {
   ],
   tr: [
     {
+      title: "Karanix Software Solutions",
+      location: "Uzaktan / Türkiye",
+      description:
+        "Support Panel ve Onboarding akışları için backend API’leri geliştirdim. Başvuru oluşturma/güncelleme, IBAN işlemleri, sözleşme onayı, paket & eklenti seçimi ile domain seçimi/uygunluk kontrolü gibi endpoint’leri hayata geçirdim. NestJS (TypeScript), Prisma ve PostgreSQL kullanarak durum bazlı listeleme, detay görüntüleme ve gönder/onayla/reddet aksiyonları gibi support akışlarını güçlü doğrulama ve hata yönetimiyle geliştirdim.",
+      icon: React.createElement(FaCode),
+      date: "Ara 2025 - Ara 2025"
+    },
+    {
       title: "SCA Social",
       location: "Uzaktan",
       description:
@@ -89,8 +104,7 @@ export const experiencesData = {
     {
       title: "Bornova Anadolu Lisesi",
       location: "İzmir",
-      description:
-        "Fen ve yabancı dil ağırlıklı lise eğitimi aldım.",
+      description: "Fen ve yabancı dil ağırlıklı lise eğitimi aldım.",
       icon: React.createElement(FaGraduationCap),
       date: "2013 – 2017"
     }
