@@ -11,7 +11,7 @@ const navLinks = {
     { name: "Yetenekler", href: "#skills" },
     { name: "Deneyim", href: "#experience" },
     { name: "İletişim", href: "#contact" },
-    { name: "CV", href: "#resume"  },
+   
   ],
   en: [
     { name: "Home", href: "#home" },
@@ -20,7 +20,7 @@ const navLinks = {
     { name: "Skills", href: "#skills" },
     { name: "Experience", href: "#experience" },
     { name: "Contact", href: "#contact" },
-    { name: "CV", href: "#resume" },
+   
   ],
 };
 
