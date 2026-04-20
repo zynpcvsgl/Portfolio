@@ -84,7 +84,7 @@ export const experiencesData = {
         "BoreCheck.io platformunun uçtan uca frontend geliştirme sürecini yürüterek ölçeklenebilir ve kullanıcı dostu bir arayüz geliştirdim. Denetim raporlama süreçleri için görsel yükleme ve görüntüleme altyapısını kurdum. Aurenova projesinde Periodik Bakım/Kontrol ve Major Operasyonlar modüllerini hem frontend hem backend tarafında geliştirerek full-stack katkı sağladım. Türbin denetim süreçlerinin dijitalleştirilmesi ve operasyonel verimliliğin artırılması için ekiplerle birlikte çalıştım.",
       icon: React.createElement(FaCode),
       date: "Şub 2026 – May 2026"
-    }
+    },
     {
       title: "Karanix Software Solutions",
       location: "Uzaktan / Türkiye",
