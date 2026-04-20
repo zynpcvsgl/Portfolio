@@ -12,15 +12,22 @@ const skillsData = {
     },
     {
       title: "🌐 Web Development",
-      items: [".NET", "HTML", "CSS", "JavaScript", "TypeScript", "Node.js", "React Native", "Next.js", "Tailwind CSS"],
+      items: [
+        ".NET",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "Angular",
+        "Node.js",
+        "React Native",
+        "Next.js",
+        "Tailwind CSS",
+      ],
     },
     {
       title: "🗃 Database Management",
       items: ["SQL", "Oracle", "MongoDB", "Microsoft SQL", "SQLite", "PostgreSQL"],
-    },
-    {
-      title: "🧰 Software Tools",
-      items: ["Photoshop", "MATLAB", "VHDL", "Microsoft Office", "Figma", "Canva", "Unity", "Visual Studio Code"],
     },
     {
       title: "🧱 Database Architecture",
@@ -39,6 +46,32 @@ const skillsData = {
       items: ["AWS", "Azure", "Google Cloud", "Firebase"],
     },
     {
+      title: "📱 Mobile Development",
+      items: ["React Native"],
+    },
+    {
+      title: "🧪 Testing Tools",
+      items: ["Postman", "Selenium", "JUnit", "TestNG", "Cypress", "Jest"],
+    },
+    {
+      title: "🚀 CI/CD & Deployment",
+      items: [
+        "Jenkins",
+        "GitHub Actions",
+        "GitLab CI/CD",
+        "Vercel",
+        "Netlify",
+        "Heroku",
+        "CircleCI",
+        "Docker",
+        "Ansible",
+      ],
+    },
+    {
+      title: "🌍 Localization & Accessibility",
+      items: ["i18n/l10n"],
+    },
+    {
       title: "🔐 Cybersecurity",
       items: ["Network Security", "Firewalls", "Encryption"],
     },
@@ -54,15 +87,22 @@ const skillsData = {
     },
     {
       title: "🌐 Web Geliştirme",
-      items: [".NET", "HTML", "CSS", "JavaScript", "TypeScript", "Node.js", "React Native", "Next.js", "Tailwind CSS"],
+      items: [
+        ".NET",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "Angular",
+        "Node.js",
+        "React Native",
+        "Next.js",
+        "Tailwind CSS",
+      ],
     },
     {
       title: "🗃 Veritabanı Yönetimi",
       items: ["SQL", "Oracle", "MongoDB", "Microsoft SQL", "SQLite", "PostgreSQL"],
-    },
-    {
-      title: "🧰 Yazılım Araçları",
-      items: ["Photoshop", "MATLAB", "VHDL", "Microsoft Office", "Figma", "Canva", "Unity", "Visual Studio Code"],
     },
     {
       title: "🧱 Veritabanı Mimarisi",
@@ -81,6 +121,32 @@ const skillsData = {
       items: ["AWS", "Azure", "Google Cloud", "Firebase"],
     },
     {
+      title: "📱 Mobil Uygulama Geliştirme",
+      items: ["React Native"],
+    },
+    {
+      title: "🧪 Test Araçları",
+      items: ["Postman", "Selenium", "JUnit", "TestNG", "Cypress", "Jest"],
+    },
+    {
+      title: "🚀 CI/CD ve Dağıtım",
+      items: [
+        "Jenkins",
+        "GitHub Actions",
+        "GitLab CI/CD",
+        "Vercel",
+        "Netlify",
+        "Heroku",
+        "CircleCI",
+        "Docker",
+        "Ansible",
+      ],
+    },
+    {
+      title: "🌍 Yerelleştirme ve Erişilebilirlik",
+      items: ["i18n/l10n"],
+    },
+    {
       title: "🔐 Siber Güvenlik",
       items: ["Ağ Güvenliği", "Güvenlik Duvarları", "Şifreleme"],
     },
@@ -96,18 +162,25 @@ export default function Skills() {
   const currentSkills = skillsData[language];
 
   return (
-    <section id="skills" className="scroll-mt-28 mb-28 max-w-[53rem] mx-auto text-center sm:mb-40">
-      <SectionHeading>{language === "en" ? "My Skills" : "Yeteneklerim"}</SectionHeading>
+    <section
+      id="skills"
+      className="scroll-mt-28 mb-28 max-w-[53rem] mx-auto text-center sm:mb-40"
+    >
+      <SectionHeading>
+        {language === "en" ? "My Skills" : "Yeteneklerim"}
+      </SectionHeading>
 
       <div className="mt-10 flex flex-col items-center gap-10 text-gray-300 dark:text-white/80">
         {currentSkills.map((group, index) => (
           <div key={index} className="w-full max-w-3xl">
-            <h3 className="text-xl font-semibold text-purple-400 mb-2">{group.title}</h3>
+            <h3 className="mb-2 text-xl font-semibold text-purple-400">
+              {group.title}
+            </h3>
             <ul className="flex flex-wrap justify-center gap-2">
               {group.items.map((item, i) => (
                 <li
                   key={i}
-                  className="bg-white/10 dark:bg-white/10 rounded-full px-3 py-1 text-sm font-medium"
+                  className="rounded-full bg-white/10 px-3 py-1 text-sm font-medium"
                 >
                   {item}
                 </li>
