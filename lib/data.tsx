@@ -27,7 +27,7 @@ interface Experience {
 
 export const experiencesData = {
   en: [
-      {
+    {
       title: "Güris Technology – Young Talent",
       location: "Ankara, Turkey",
       description:
@@ -41,7 +41,7 @@ export const experiencesData = {
       description:
         "Developed backend APIs for Support Panel and Onboarding flows. Implemented endpoints for application create/update, IBAN handling, contract approval, package & add-on selection, and domain selection/availability checks. Built support workflows such as status-based listing, detail views, and submit/approve/reject actions using NestJS (TypeScript), Prisma, and PostgreSQL with strong validation and error handling.",
       icon: React.createElement(FaCode),
-      date: "Dec 2025 - Dec 2025"
+      date: "Dec 2025 – Dec 2025"
     },
     {
       title: "SCA Social",
@@ -53,7 +53,7 @@ export const experiencesData = {
     },
     {
       title: "Ministry of Environment, Urbanization and Climate Change",
-      location: "Izmir",
+      location: "Izmir, Turkey",
       description:
         "Developed archive automation systems and improved internal portal integrations during my internship.",
       icon: React.createElement(FaBuilding),
@@ -68,7 +68,7 @@ export const experiencesData = {
       date: "2019 – 2025"
     },
     {
-      title: "Bornova Anadolu Lisesi",
+      title: "Bornova Anatolian High School",
       location: "Izmir, Turkey",
       description:
         "High school education with a focus on science and foreign languages.",
@@ -89,9 +89,9 @@ export const experiencesData = {
       title: "Karanix Software Solutions",
       location: "Uzaktan / Türkiye",
       description:
-        "Support Panel ve Onboarding akışları için backend API’leri geliştirdim. Başvuru oluşturma/güncelleme, IBAN işlemleri, sözleşme onayı, paket & eklenti seçimi ile domain seçimi/uygunluk kontrolü gibi endpoint’leri hayata geçirdim. NestJS (TypeScript), Prisma ve PostgreSQL kullanarak durum bazlı listeleme, detay görüntüleme ve gönder/onayla/reddet aksiyonları gibi support akışlarını güçlü doğrulama ve hata yönetimiyle geliştirdim.",
+        "Support Panel ve Onboarding akışları için backend API’leri geliştirdim. Başvuru oluşturma/güncelleme, IBAN işlemleri, sözleşme onayı, paket ve eklenti seçimi ile domain seçimi/uygunluk kontrolü gibi endpoint’leri hayata geçirdim. NestJS (TypeScript), Prisma ve PostgreSQL kullanarak durum bazlı listeleme, detay görüntüleme ve gönder/onayla/reddet aksiyonları gibi support akışlarını güçlü doğrulama ve hata yönetimiyle geliştirdim.",
       icon: React.createElement(FaCode),
-      date: "Ara 2025 - Ara 2025"
+      date: "Ara 2025 – Ara 2025"
     },
     {
       title: "SCA Social",
@@ -103,7 +103,7 @@ export const experiencesData = {
     },
     {
       title: "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
-      location: "İzmir",
+      location: "İzmir, Türkiye",
       description:
         "Arşiv otomasyon sistemleri geliştirerek kurum içi portal entegrasyonları üzerine çalıştım.",
       icon: React.createElement(FaBuilding),
@@ -119,8 +119,9 @@ export const experiencesData = {
     },
     {
       title: "Bornova Anadolu Lisesi",
-      location: "İzmir",
-      description: "Fen ve yabancı dil ağırlıklı lise eğitimi aldım.",
+      location: "İzmir, Türkiye",
+      description:
+        "Fen ve yabancı dil ağırlıklı lise eğitimi aldım.",
       icon: React.createElement(FaGraduationCap),
       date: "2013 – 2017"
     }
