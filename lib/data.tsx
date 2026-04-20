@@ -27,6 +27,14 @@ interface Experience {
 
 export const experiencesData = {
   en: [
+      {
+      title: "Güris Technology – Young Talent",
+      location: "Ankara, Turkey",
+      description:
+        "Led the end-to-end frontend development of the BoreCheck.io platform, delivering a scalable and responsive user interface. Built image upload and display infrastructure for inspection reporting workflows. Contributed as a full-stack developer to the Aurenova project by developing Periodic Maintenance/Inspection and Major Operations modules, implementing both frontend and backend functionalities. Collaborated with cross-functional teams to digitalize turbine inspection processes and improve operational efficiency.",
+      icon: React.createElement(FaCode),
+      date: "Feb 2026 – May 2026"
+    },
     {
       title: "Karanix Software Solutions",
       location: "Remote / Turkey",
@@ -69,6 +77,14 @@ export const experiencesData = {
     }
   ],
   tr: [
+    {
+      title: "Güris Teknoloji – Genç Yetenek",
+      location: "Ankara, Türkiye",
+      description:
+        "BoreCheck.io platformunun uçtan uca frontend geliştirme sürecini yürüterek ölçeklenebilir ve kullanıcı dostu bir arayüz geliştirdim. Denetim raporlama süreçleri için görsel yükleme ve görüntüleme altyapısını kurdum. Aurenova projesinde Periodik Bakım/Kontrol ve Major Operasyonlar modüllerini hem frontend hem backend tarafında geliştirerek full-stack katkı sağladım. Türbin denetim süreçlerinin dijitalleştirilmesi ve operasyonel verimliliğin artırılması için ekiplerle birlikte çalıştım.",
+      icon: React.createElement(FaCode),
+      date: "Şub 2026 – May 2026"
+    }
     {
       title: "Karanix Software Solutions",
       location: "Uzaktan / Türkiye",
