@@ -50,10 +50,10 @@ export default function Intro() {
       </h1>
 
       <p className="mb-10 max-w-xl mx-auto text-lg text-gray-300 px-4">
-        {language === "en"
-          ? "I build efficient, user-focused applications using .NET, React Native, and modern web technologies. I'm a quick learner, a collaborative team player, and a solution-oriented developer."
-          : ".NET, React Native ve modern web teknolojileriyle üretken, kullanıcı odaklı yazılımlar geliştiriyorum. Öğrenmeyi seven, takım çalışmasına açık ve çözüm odaklı bir geliştiriciyim."}
-      </p>
+  {language === "en"
+    ? "I build scalable and user-focused web applications using modern frontend and backend technologies. Passionate about creating clean, responsive, and impactful digital experiences while continuously improving my technical skills through real-world projects and collaborative development."
+    : "Modern frontend ve backend teknolojileri kullanarak ölçeklenebilir ve kullanıcı odaklı web uygulamaları geliştiriyorum. Temiz, duyarlı ve etkili dijital deneyimler oluşturmayı hedeflerken teknik yetkinliklerimi gerçek dünya projeleri ve ekip çalışmalarıyla sürekli geliştirmeye önem veriyorum."}
+</p>
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium">
         <a
